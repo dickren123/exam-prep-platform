@@ -3,10 +3,10 @@
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import Header from '../../../components/Header';
-import Footer from '../../../components/Footer';
-import ExamCard from '../../../components/ExamCard';
-import { examCategories, getExamsByCategory } from '../../../data/exams';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import ExamCard from '../../components/ExamCard';
+import { examCategories, getExamsByCategory } from '../../data/exams';
 
 export default function CategoryPage() {
   const params = useParams();
