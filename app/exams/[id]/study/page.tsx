@@ -2,9 +2,9 @@
 
 import { useParams, useRouter } from 'next/navigation';
 import { BookOpen, ArrowLeft } from 'lucide-react';
-import Header from '../../../../components/Header';
-import Footer from '../../../../components/Footer';
-import { exams } from '../../../../app/data/exams';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import { exams } from '../../../data/exams';
 
 export default function StudyGuidePage() {
   const params = useParams();
